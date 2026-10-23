@@ -10,7 +10,7 @@ Hooks.once("ready", async () => {
     const lastVersion = game.settings.get(Constants.MODULE_ID, Constants.LAST_VERSION);
 
     if (foundry.utils.isNewerVersion(currentVersion, lastVersion)) {
-        const journal = await fromUuid("Compendium.trazzm-rotd.journal-entries.JournalEntry.L9YHsoeODbdhqdKU");
+        const journal = await fromUuid("Compendium.trazzm-rotd.journal-entries.JournalEntry.PnCb2Ai7j6LfP8rT");
         const page = journal.pages.contents.find(p => p.name === currentVersion);
         if (page) {
             journal.sheet.render(true, {pageId: page.id});
