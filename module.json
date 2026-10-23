@@ -1,0 +1,185 @@
+{
+  "id": "trazzm-rotd",
+  "title": "Trazzm ROTD",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14.369",
+    "maximum": "14.999"
+  },
+  "description": "<p>A collection of homebrew content for the Rise of the Drow campaign</p>",
+  "url": "https://github.com/gregpola/trazzm-rotd",
+  "flags": {
+    "canUpload": true
+  },
+  "authors": [
+    {
+      "name": "Trazzm",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "journal-entries",
+      "label": "Journal Entries",
+      "path": "packs/journal-entries",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "scenes",
+      "label": "Scenes",
+      "path": "packs/scenes",
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "actors",
+      "label": "Actors",
+      "path": "packs/actors",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "items",
+      "label": "Items",
+      "path": "packs/items",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "roll-tables",
+      "label": "Roll Tables",
+      "path": "packs/roll-tables",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "active-effects",
+      "label": "Active Effects",
+      "path": "packs/active-effects",
+      "type": "ActiveEffect",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "macros",
+      "label": "Macros",
+      "path": "packs/macros",
+      "type": "Macro",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Trazzm ROTD",
+      "sorting": "a",
+      "color": "#6a1fdb",
+      "folders": [
+      ],
+      "packs": [
+        "actors",
+		"journal-entries",
+		"scenes",
+		"items",
+		"roll-tables",
+		"active-effects",
+		"macros"
+      ]
+    }
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "midi-qol",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "automated-conditions-5e",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "dae",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "regionba",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "socketlib",
+        "type": "module",
+        "compatibility": {
+          "minimum": "1.1.3",
+          "verified": "1.1.4"
+        }
+      },
+      {
+        "id": "lib-wrapper",
+        "type": "module"
+      }
+    ]
+  },
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "flags": {
+    "allowBugReporter": true,
+    "hotReload": { "paths": ["lang/en.json"] },
+    "dnd5e": {
+      "spellLists": [
+        "Compendium.trazzm-rotd.journal-entries.JournalEntry.1RYwg7uaEAqT8hus.JournalEntryPage.6HyPZ3LdF5G3gRBw",
+        "Compendium.trazzm-rotd.journal-entries.JournalEntry.1RYwg7uaEAqT8hus.JournalEntryPage.X70ZzgRXE0ieuqCw",
+        "Compendium.trazzm-rotd.journal-entries.JournalEntry.1RYwg7uaEAqT8hus.JournalEntryPage.QAMvUkonVmGbT4Pu",
+        "Compendium.trazzm-rotd.journal-entries.JournalEntry.1RYwg7uaEAqT8hus.JournalEntryPage.8qhoxg7VqRaaSwnu",
+        "Compendium.trazzm-rotd.journal-entries.JournalEntry.1RYwg7uaEAqT8hus.JournalEntryPage.lFmiN6i0eOPB8pSL",
+        "Compendium.trazzm-rotd.journal-entries.JournalEntry.1RYwg7uaEAqT8hus.JournalEntryPage.ILz1dnFvMgtkM1mk",
+        "Compendium.trazzm-rotd.journal-entries.JournalEntry.1RYwg7uaEAqT8hus.JournalEntryPage.8JvLSp0oNO3SaItL",
+        "Compendium.trazzm-rotd.journal-entries.JournalEntry.1RYwg7uaEAqT8hus.JournalEntryPage.vkVR9Cs6N4sfI6EX",
+        "Compendium.trazzm-rotd.journal-entries.JournalEntry.1RYwg7uaEAqT8hus.JournalEntryPage.7tHa7yqoouCnXTxJ"
+      ]
+    }
+  }	
+}
