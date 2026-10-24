@@ -1,7 +1,7 @@
 {
   "id": "trazzm-rotd",
   "title": "Trazzm ROTD",
-  "version": "This is auto replaced",
+  "version": "#{VERSION}#",
   "compatibility": {
     "minimum": "14",
     "verified": "14.369",
@@ -182,9 +182,9 @@
       ]
     }
   },
-  "url": "https://github.com/gregpola/trazzm-rotd",
-  "manifest": "This is auto replaced",
-  "download": "This is auto replaced",
+  "url": "#{URL}#",
+  "manifest": "#{MANIFEST}#",
+  "download": "#{DOWNLOAD}#",
   "license": "https://raw.githubusercontent.com/gregpola/trazzm-rotd/main/LICENSE",
   "changelog": "https://raw.githubusercontent.com/gregpola/trazzm-rotd/main/changelog.md",
   "readme": "https://raw.githubusercontent.com/gregpola/trazzm-rotd/main/README.md",
