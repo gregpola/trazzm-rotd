@@ -1,4 +1,4 @@
-[![Github All Releases](https://img.shields.io/github/downloads/gregpola/fvtt-trazzm-homebrew-5e/total.svg)]() 
+[![Github All Releases](https://img.shields.io/github/downloads/gregpola/trazzm-rotd/total.svg)]() 
 # trazzm-rotd
     A collection of homebrew content for the AAW Rise of the Drow campaign in FoundryVTT
 
